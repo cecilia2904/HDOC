@@ -10,7 +10,6 @@
     outline: none;
     box-sizing: border-box;
     transition: .2s;
-    text-transform: capitalize;
     text-decoration: none;
 }
 html{
@@ -103,6 +102,7 @@ html{
     margin-bottom: 20px;
 }
 .background-content p{
+   
     font-size: 3rem;
     margin-bottom: 40px;
 }
@@ -251,7 +251,7 @@ html{
     margin-bottom: 15px;
 }
 .about-content p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 .about-content a{
@@ -607,4 +607,92 @@ input placeholder{
 
 
 
+}
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #ffe8ea;
+    background-size: cover;
+    
+    /*background-color: #d0f0f8;
+    -webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #20499F;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #BB2730;
+    font-weight: 700;
+}
+
+.box__footer a{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #BB2730;
+    font-weight: 900;
+}
+
+
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #BB2730;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #BB2730;
+}
+
+.box__copyright img{
+    max-width: 10%;
+    vertical-align: middle;
+    display: inline-block;
+    right: 10px; /* Ajuste a distância da direita conforme necessário */
 }
